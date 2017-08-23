@@ -1,6 +1,6 @@
 language: cpp
 compiler: gcc
-install: make
+before_script: make
 script: ./main.x
 # before_script: chmod +x configure
 
